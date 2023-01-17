@@ -513,7 +513,7 @@ label {
 .contents.gallery {
     position: relative;
     text-align: center;
-    /*margin-top: 70px;*/
+    padding-top: 60px;
 }
 
 .contents.gallery .gallery-list .swiper-slide .grid-item {
@@ -558,6 +558,8 @@ label {
     margin: 0 10px 10px 10px;
     border-radius: 20px;
     background-color: #ffffff;
+    border: 1px solid peachpuff;
+    background-color: rgba(249,235,215,0.2);
 }
 
 .contents.location .address .left .tit {
@@ -591,7 +593,8 @@ label {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 65px;
     text-align: center;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
+    background-color: rgba(249,235,215,0.2);
 }
 
 .contents.location .map-icon a {
@@ -650,7 +653,7 @@ label {
 
 /* thanks */
 .contents.thanks{
-    padding: 60px 20px 50px 20px;
+    padding: 60px 20px 0 20px;
     text-align: center;
     font-size: 15px;
     line-height: 2;
@@ -700,7 +703,7 @@ label {
     margin: 0 10px;
     border-radius: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 60px 20px 20px 20px;
     background-color: #ffffff;
 }
 
