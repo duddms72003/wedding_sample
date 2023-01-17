@@ -146,11 +146,11 @@
 
     <section class="contents gallery">
 
-      <div class="bg-cnt first" style="margin-bottom: 70px">
+      <!-- <div class="bg-cnt first" style="margin-bottom: 70px">
         <div class="bg-wrap">
           <div class="bg"></div>
         </div>
-      </div>
+      </div> -->
 
       <p class="cnt-tit"><span class="leaf left"></span>GALLERY<span class="leaf right"></span></p>
 
@@ -332,98 +332,8 @@
       </div>
     </section>
 
-    <section class="contents account">
-      <p class="cnt-tit"><span class="leaf left"></span>ACCOUNT<span class="leaf right"></span></p>
-      <p class="main-tit">축하의 마음을 담아 축의금을 전달해보세요.</p>
-      <div class="account-list">
-        <div>
-          <span class="tit">신랑측 마음</span>
-          <a href="javascript:void(0)" class="groom" onclick="clickGroomPopup()">계좌번호보기</a>
-        </div>
-        <div>
-          <span class="tit">신부측 마음</span>
-          <a href="javascript:void(0)" class="bride" onclick="clickBridePopup()">계좌번호보기</a>
-        </div>
-      </div>
-
-      <div class="popup account" id="popupGroom" style="display: none;">
-        <div class="modal-dim"></div>
-        <div class="popup-dialog">
-          <div class="popup-header groom" style=" font-family: 'Gaegu', sans-serif!important;">
-            <span>신랑측</span>
-            <div class="popup-btn" style="z-index:1">
-              <a href="javascript:void(0)" class="popup-close" onclick="closeBtnGroom()"><img
-                  src="./assets/images/close-icon.svg" alt=""></a>
-            </div>
-          </div>
-
-          <div class="popup-body">
-            <div class="popup-contents">
-              <div class="account-cnt">
-                <div class="account-box">
-                  <p>모) 전복순</p>
-                  <p>
-                    <span class="bank">농협은행</span>
-                    <input value="3025577330721" onclick="copy_to_clipboard(event)" class="account-input" readonly>
-                  </p>
-                </div>
-                <div class="account-box">
-                  <p>신랑 이동근</p>
-                  <p>
-                    <span class="bank">카카오뱅크</span>
-                    <input value="3333094138325" onclick="copy_to_clipboard(event)" class="account-input" readonly>
-                  </p>
-                </div>
-
-                <p class="account-txt">* 계좌번호를 클릭하시면 자동으로 복사됩니다.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="popup account" id="popupBride" style="display: none;">
-        <div class="modal-dim"></div>
-        <div class="popup-dialog">
-          <div class="popup-header bride">
-            <span>신부측</span>
-            <div class="popup-btn" style="z-index:1">
-              <a href="javascript:void(0)" class="popup-close" onclick="closeBtnBride()"><img
-                  src="./assets/images/close-icon.svg" alt=""></a>
-            </div>
-          </div>
-
-          <div class="popup-body">
-            <div class="popup-contents">
-              <div class="account-cnt">
-                <div class="account-box">
-                  <p>부) 조기훈</p>
-                  <p>
-                    <span class="bank">기업은행</span>
-                    <input value="95501095301013" onclick="copy_to_clipboard(event)" class="account-input" readonly>
-                  </p>
-                </div>
-                <div class="account-box">
-                  <p>신부 조영은</p>
-                  <p>
-                    <span class="bank">국민은행</span>
-                    <input value="99421060170" onclick="copy_to_clipboard(event)" class="account-input" readonly>
-                  </p>
-                </div>
-              </div>
-
-              <p class="account-txt">* 계좌번호를 클릭하시면 자동으로 복사됩니다.</p>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     <section class="contents calendar">
-<!--      <p class="cnt-tit"><span class="leaf left"></span>ACCOUNT<span class="leaf right"></span></p>-->
+      <p class="cnt-tit"><span class="leaf left"></span>CALENDAR<span class="leaf right"></span></p>
       <div>
         <div class="calendar-wrap">
           <h1 class="cal-tit">10월</h1>
@@ -578,7 +488,7 @@
     </section>
 
     <section class="contents thanks"> 
-      <p class="cnt-tit"><span class="leaf left"></span>THANKS<span class="leaf right"></span></p>
+      <p class="cnt-tit"><span class="leaf left"></span>THANKS CARD<span class="leaf right"></span></p>
       <p class="thanks_text">화창한 봄날에 저희 두 사람이 부부의 연을 맺게 되었습니다.<br>
         저희들에게 평생 잊지 못한 소중한 날을<br>
         축하해주심에 평생토록 잊지 않겠습니다.<br>
@@ -590,6 +500,99 @@
         감사합니다.</p>
 
     </section>
+
+    <section class="contents account">
+      <p class="cnt-tit"><span class="leaf left"></span>ACCOUNT<span class="leaf right"></span></p>
+      <p class="main-tit">축하의 마음을 담아 축의금을 전달해보세요.</p>
+      <div class="account-list">
+        <div>
+          <span class="tit">신랑측 마음</span>
+          <a href="javascript:void(0)" class="groom" onclick="clickGroomPopup()">계좌번호보기</a>
+        </div>
+        <div>
+          <span class="tit">신부측 마음</span>
+          <a href="javascript:void(0)" class="bride" onclick="clickBridePopup()">계좌번호보기</a>
+        </div>
+      </div>
+
+      <div class="popup account" id="popupGroom" style="display: none;">
+        <div class="modal-dim"></div>
+        <div class="popup-dialog">
+          <div class="popup-header groom" style=" font-family: 'Gaegu', sans-serif!important;">
+            <span>신랑측</span>
+            <div class="popup-btn" style="z-index:1">
+              <a href="javascript:void(0)" class="popup-close" onclick="closeBtnGroom()"><img
+                  src="./assets/images/close-icon.svg" alt=""></a>
+            </div>
+          </div>
+
+          <div class="popup-body">
+            <div class="popup-contents">
+              <div class="account-cnt">
+                <div class="account-box">
+                  <p>모) 전복순</p>
+                  <p>
+                    <span class="bank">농협은행</span>
+                    <input value="3025577330721" onclick="copy_to_clipboard(event)" class="account-input" readonly>
+                  </p>
+                </div>
+                <div class="account-box">
+                  <p>신랑 이동근</p>
+                  <p>
+                    <span class="bank">카카오뱅크</span>
+                    <input value="3333094138325" onclick="copy_to_clipboard(event)" class="account-input" readonly>
+                  </p>
+                </div>
+
+                <p class="account-txt">* 계좌번호를 클릭하시면 자동으로 복사됩니다.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="popup account" id="popupBride" style="display: none;">
+        <div class="modal-dim"></div>
+        <div class="popup-dialog">
+          <div class="popup-header bride">
+            <span>신부측</span>
+            <div class="popup-btn" style="z-index:1">
+              <a href="javascript:void(0)" class="popup-close" onclick="closeBtnBride()"><img
+                  src="./assets/images/close-icon.svg" alt=""></a>
+            </div>
+          </div>
+
+          <div class="popup-body">
+            <div class="popup-contents">
+              <div class="account-cnt">
+                <div class="account-box">
+                  <p>부) 조기훈</p>
+                  <p>
+                    <span class="bank">기업은행</span>
+                    <input value="95501095301013" onclick="copy_to_clipboard(event)" class="account-input" readonly>
+                  </p>
+                </div>
+                <div class="account-box">
+                  <p>신부 조영은</p>
+                  <p>
+                    <span class="bank">국민은행</span>
+                    <input value="99421060170" onclick="copy_to_clipboard(event)" class="account-input" readonly>
+                  </p>
+                </div>
+              </div>
+
+              <p class="account-txt">* 계좌번호를 클릭하시면 자동으로 복사됩니다.</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
 
     <!-- <section class="contents menu">
       <p class="cnt-tit"><span class="leaf left"></span>BUFFET MENU<span class="leaf right"></span></p>
@@ -765,7 +768,7 @@
   </div>
   <footer class="footer">
     <div class="contents">
-      <p>Made by YE</p>
+      <p>Made by JANE</p>
       <!-- <span>&#129392;</span> -->
     </div>
   </footer>
